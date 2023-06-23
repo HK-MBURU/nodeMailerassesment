@@ -3,7 +3,7 @@ const express=require('express')
 const app=express()
 app.use(express.json)
 
-const emailRouter=require('../routes/emailRoutes')
+const emailRouter=require('./routes/emailRoutes')
 app.use(emailRouter)
 
 const port=process.env.PORT ||4000

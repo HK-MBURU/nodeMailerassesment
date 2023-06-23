@@ -24,12 +24,7 @@ exports.sendEmail=async function(req,res){
                 },
             ],
         }
-        transporter.sendMail(emailOptions,(error,info)=>{
-            if (error) {
-                console.log(error);
-                
-            }
-        })
+       
 
         
         let info=await transporter.sendMail(emailOptions)
