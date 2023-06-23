@@ -1,0 +1,15 @@
+{
+  "name": "week-8assesment",
+  "version": "1.0.0",
+  "description": "week 8 node assesment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "HK-MBURU",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.9.3"
+  }
+}
